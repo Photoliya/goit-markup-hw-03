@@ -1,0 +1,165 @@
+:root {
+    /* CTAs Focused Active states Links */
+    --primary-brand-color: #4D5AE5;
+    /* pressed state */
+    --pressed-state: #404BBF;
+    /*Overlays Shadows Headings*/
+    --dark: #2E2F42;
+    /* Valid fields Success messages */
+    --success: #31D0AA;
+    /*Body text*/
+    --body-text-color: #434455;
+    /* Helper text Deemphasized text */
+    --Subtle Text: #8E8F99;
+    /* Accent */
+    /* cornflower */
+    --Accent: #E7E9FC;
+    /* Light */
+    /* CLOUD */
+    --light: #F4F4FD;
+    /* white */
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--body-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.list {
+    list-style: none;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* logo */
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    color: var(--primary-brand-color);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.logo.span {
+    color: var(--dark);
+}
+
+/* header */
+
+.site-nav .nav {
+    color: var(--dark);
+    font-weight: 500;
+}
+
+.site-nav .nav:hover,
+.site-nav .nav:focus {
+    color: var(--primary-brand-color);
+}
+
+.header-address .info {
+    color: var(--body-text-color);
+}
+
+.header-address .info:hover,
+.info:focus {
+    color: var(--primary-brand-color);
+}
+
+/* hero */
+.hero {
+    background: var(--dark);
+}
+
+.order {
+    font-family: inherit;
+    color: var(--white);
+    background-color: var(--primary-brand-color);
+}
+
+.order:hover,
+.orfer:focus {
+    background-color: var(--pressed-state);
+}
+
+.hero-title {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* h2 */
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+}
+
+/* h3 */
+.subtitle {
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+/* section team list*/
+.team {
+    background: var(--light);
+}
+
+/* footer */
+.footer {
+    background: var(--dark);
+    color: var(--Accent);
+}
+
+.logo.footer-span {
+    color: var(--light);
+}
+
+
+/* portfolio */
+.filter {
+    font-family: inherit;
+    font-weight: 500;
+    width: 68px;
+    height: 24px;
+    letter-spacing: 0.04em;
+}
+
+.filter .button {
+    color: var(--primary-brand-color);
+    background-color: var(--Accent);
+}
+
+.filter .button:hover,
+.filter .button:focus {
+    color: var(--white);
+    background-color: var(--pressed-state);
+}
+
+/* h2 portfolio */
+.cards {
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
