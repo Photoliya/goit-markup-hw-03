@@ -144,6 +144,8 @@ ul {
     background-color: var(--primary-brand-color);
     padding: 16px 32px;
     margin-top: 48px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .order:hover,
