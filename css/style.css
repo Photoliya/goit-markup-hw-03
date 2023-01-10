@@ -175,17 +175,7 @@ ul {
     line-height: 1.2;
 }
 
-/* benefits */
-/* work */
-.doing {
-    text-align: center;
-    margin-top: 120px;
-}
-
-.works {
-    display: flex;
-    padding-top: 72px;
-}
+/* section benefits */
 
 .benefits {
     display: flex;
@@ -202,12 +192,18 @@ ul {
     display: block;
 }
 
-/* section team list*/
-.team .item {
-    background: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
+/* section works */
+.doing {
+    text-align: center;
+    margin-top: 120px;
 }
+
+.works {
+    display: flex;
+    padding-top: 72px;
+}
+
+/* section team list*/
 
 .sec-team {
     background: var(--light);
@@ -223,6 +219,11 @@ ul {
 .team {
     display: flex;
     padding-top: 72px;
+}
+
+.team .item {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-card {
