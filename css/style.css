@@ -70,6 +70,9 @@ ul {
     margin: 0;
 }
 
+.section {
+    padding-top: var(--section-gap);
+}
 
 /* logo */
 .logo {
@@ -187,7 +190,6 @@ ul {
 
 .benefits {
     display: flex;
-    margin-top: var(--section-gap);
 }
 
 .benefits .item+.item,
@@ -207,7 +209,6 @@ ul {
 /* section works */
 .doing {
     text-align: center;
-    margin-top: var(--section-gap);
 }
 
 .works {
@@ -219,12 +220,11 @@ ul {
 
 .sec-team {
     background: var(--light);
+    margin-top: var(--section-gap);
 }
 
 .team-list {
     text-align: center;
-    margin-top: var(--section-gap);
-    padding-top: var(--section-gap);
     padding-bottom: var(--section-gap);
 }
 
